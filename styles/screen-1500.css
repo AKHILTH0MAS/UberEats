@@ -1,0 +1,54 @@
+@media (min-width: 1500px) {
+  .menuSvg {
+    display: none;
+  }
+  .profile-icon {
+    display: none;
+  }
+  .sectionBanner {
+    background: url(/asstes/images/desktop-Banner.webp);
+    background-size: cover;
+  }
+  .container-banner {
+    display: none;
+  }
+  .login-button {
+    display: block;
+    color: #000;
+    background-color: #fff;
+    padding: 9px 12px;
+    border-radius: 20px;
+    font: 14px var(--UberMoveText-1);
+    margin: 10px 20px;
+  }
+  .sign-up-button {
+    margin-right: 25px;
+  }
+  .navbar {
+    padding: 10px 16px;
+  }
+  .container-lg-child {
+    display: flex;
+  }
+  .banner-text{
+  font: 52px var(--UberMoveText-3);
+  }
+  .search-here {
+    margin: 10px 10px;
+    padding: 18px;
+  }
+  .delivery-deliver-box {
+    margin: 8px 0px 8px 10px;
+  }
+  .container-lg{
+    position: absolute;
+    top: 20vw;
+    margin: 0 0 0 40px;
+  }
+  .delivery-address-box{
+    width: 33vw;
+  }
+  .orsignin{
+    margin-top: 10px
+  }
+}

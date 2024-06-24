@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "UberMoveText-1";
+  src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/eee1724e2e5a8ebd.woff2);
+}
+@font-face {
+  font-family: "UberMoveText-2";
+  src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/276edd4275dda838.woff2);
+}
+@font-face {
+  font-family: "UberMoveText-3";
+  src: url(https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/14f73a3f74611002.woff2);
+}
+@font-face {
+  font-family: "UberMoveText-4";
+  src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
+@font-face {
+  font-family: "UberMoveText-5";
+  src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
+@font-face {
+  font-family: "UberMoveText-6";
+  src: url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+}
+:root {
+  --UberMoveText-1: "UberMoveText-1";
+  --UberMoveText-2: "UberMoveText-2";
+  --UberMoveText-3: "UberMoveText-3";
+  --UberMoveText-4: "UberMoveText-4";
+  --UberMoveText-5: "UberMoveText-5";
+  --UberMoveText-6: "UberMoveText-6";
+}
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.font-body {
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.sectionBanner {
+  height: 100vh;
+  background: url("/asstes/images/banner-mobile.webp");
+  background-size: cover;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+.spacer {
+  flex: 1;
+}
+.navHeader {
+  width: 90px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.profile-icon {
+  background: #ffffff;
+  padding: 8px 8px 7px 8px;
+  border-radius: 70%;
+  margin-right: 10px;
+}
+.sign-up-button {
+  background-color: #000;
+  color: #fff;
+  padding: 9px 12px;
+  border-radius: 20px;
+  font: 14px var(--UberMoveText-1);
+}
+/* navbar ends here */
+.container-banner {
+  display: flex;
+  justify-content: center;
+}
+.container-child {
+  padding: 0px 16px;
+}
+.banner-text {
+  margin-top: 50px;
+  font: 36px var(--UberMoveText-3);
+  text-align: left;
+  margin-bottom: 30px;
+}
+.delivery-address-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin: 8px 0;
+  padding: 13px 15px;
+}
+.delivery-address-text {
+  padding-left: 10px;
+  font: 16px var(--UberMoveText-2);
+  opacity: 0.6;
+}
+.delivery-deliver-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 13px 15px;
+  margin: 8px 0;
+}
+.delivery-now-text {
+  padding-left: 10px;
+  font: 16px var(--UberMoveText-3);
+}
+.search-here {
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 15px;
+  font: 18px var(--UberMoveText-6);
+  border-radius: 8px;
+  margin: 020px 0 20px;
+}
+.orsignin {
+  font: 15px var(--UberMoveText-6);
+}
+.orsignin span {
+  text-decoration: underline;
+}
+.login-button {
+  display: none;
+}
+.container-lg{
+  display: none;
+}
