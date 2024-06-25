@@ -23,16 +23,22 @@
     display: none;
   }
   .login-button {
-    display: block;
+    display: inline-flex;
     color: #000;
+    height: 36px;
     background-color: #fff;
-    padding: 9px 12px;
-    border-radius: 20px;
+    padding: 12px;
+    border-radius: 500px;
     font: 14px var(--UberMoveText-1);
-    margin: 10px 20px;
+    margin: 0 16px 0 0;
+    justify-content: center ;
+    align-items: center;
+    white-space: nowrap;
+    line-height: 16px;
+    box-sizing: border-box;
   }
   .sign-up-button {
-    margin-right: 25px;
+    margin-right: 40px;
   }
   .sign-up-button-nav {
     display: flex;
@@ -46,7 +52,11 @@
   }
   .navbar {
     width: 100vw;
+    height: 64px;
     padding: 0;
+  }
+  .navHeader{
+    margin: 0 22px
   }
   .container-lg-child {
     display: flex;
@@ -64,11 +74,13 @@
   .container-lg {
     display: block;
     position: absolute;
-    top: 30vh;
+    top: 40vh;
     margin: 0 0 0 40px;
   }
   .delivery-address-box {
-    width: 33vw;
+      min-width: 500px;
+      max-width: 540px;
+      
   }
   .orsignin {
     margin-top: 10px;
@@ -96,18 +108,24 @@
     font: 16px var(--UberMoveText-4);
     text-decoration: underline;
   }
+  .cities-near-me{
+    margin: 0 40px;
+  }
+  
   .cities-near-me-text {
     font-size: 36px;
   }
+  
   .cities-near-me-img-desktop {
     width: 94vw;
+    margin: 20px 0;
     display: block;
-    margin: 16px 16px;
     object-fit: contain;
   }
   .cities-near-me-img-mobile {
     display: none;
   }
+  
   .dk {
     display: block;
   }
@@ -118,6 +136,7 @@
   }
   .flx {
     display: flex;
+    gap: 50px;
     /* align-items: center; */
     justify-content: space-between;
   }
@@ -125,8 +144,8 @@
     display: none;
   }
   .footer {
-    margin: 80px 0 0 0;
-    padding: 70px 40px 88px;
+   display: flex;
+   justify-self: auto;
   }
   .footer-logo {
     margin: 0 0 80px 0;
@@ -153,7 +172,6 @@
   .c3 {
     margin-left: 20px;
     margin-bottom: 0;
-
   }
   .c4 {
     display: flex;

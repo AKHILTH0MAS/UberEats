@@ -38,14 +38,15 @@
           </svg>
         </div>
         <div class="delivery-address-text">Enter delivery address</div>
+        
       </div>
-      <div class="navbar " id="fdk">
+      <div class="navbar" id="fdk">
         <img
           class="navHeader"
           src="/uberEats/asstes/images/nameHeader.svg"
           alt=""
         />
-        <div class="sign-up-button-nav" >
+        <div class="sign-up-button-nav">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
             <title>Location marker</title>
             <path
@@ -56,6 +57,20 @@
             ></path>
           </svg>
           Enter delivery address
+          <svg
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <title>Chevron down small</title>
+            <path
+              d="M18 8v3.8l-6 4.6-6-4.6V8l6 4.6L18 8Z"
+              fill="#FFFFFF"
+            ></path>
+          </svg>
         </div>
         <div class="spacer"></div>
         <div class="login-button">Log in</div>
@@ -258,6 +273,7 @@
           <div class="search-here">Search here</div>
         </div>
         <div class="orsignin">Or <span>Sign in</span></div>
+        <div class="hi"></div>
       </div>
     </div>
     <!-- here ends the banner section  -->
@@ -319,7 +335,6 @@
       </div>
     </section>
     <!-- section mobile ends here  -->
-
     <section class="bussiness-with-ubereats">
       <div class="bussiness-with-ubereats-flex">
         <div class="container-bussiness">
@@ -440,6 +455,7 @@
       <div class="view-all-500-cities sm">View all countries</div>
     </section>
     <div class="footer">
+      <div class="aa">
       <div class="flx">
         <div class="c1 f2">
           <img
@@ -565,17 +581,17 @@
         <div class="footer-text-14">© 2024 Uber Technologies Inc.</div>
       </div>
     </div>
+    </div>
     <script>
       window.addEventListener("scroll", function () {
         let navbar1 = document.getElementById("navbar1");
         let fdk = document.getElementById("fdk");
         let scrollHeight = window.scrollY;
-        let position = (window.innerWidth< 1020)? 100: 200;
-        if(window.innerWidth< 1020){
-          fdk.style.display = "none"
-        }else {
-          fdk.style.display = "flex"
-
+        let position = window.innerWidth < 1020 ? 100 : 200;
+        if (window.innerWidth < 1020) {
+          fdk.style.display = "none";
+        } else {
+          fdk.style.display = "flex";
         }
         if (scrollHeight > position) {
           navbar1.style.display = "flex";
