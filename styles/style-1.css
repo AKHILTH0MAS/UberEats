@@ -30,6 +30,7 @@
   --UberMoveText-5: "UberMoveText-5";
   --UberMoveText-6: "UberMoveText-6";
 }
+
 /* root end font face above */
 .g4 {
   display: none;
@@ -53,7 +54,7 @@ li {
 }
 .sectionBanner {
   height: 100vh;
-  background: url("/asstes/images/banner-mobile.webp");
+  background: url("/uberEats/asstes/images/banner-mobile.webp");
   background-size: cover;
   background-position: center;
 }
@@ -83,6 +84,22 @@ li {
   border-radius: 20px;
   font: 14px var(--UberMoveText-1);
 }
+#navbar1 {
+  z-index: 1;
+  display: none;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 8px 10px;
+}
+.delivery-address-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: #F3F3F3;
+  margin: 10px;
+  padding: 13px 15px;
+}
 /* navbar ends here */
 .container-banner {
   display: flex;
@@ -108,6 +125,7 @@ li {
   padding-left: 10px;
   font: 16px var(--UberMoveText-2);
   opacity: 0.6;
+  
 }
 .delivery-deliver-box {
   display: flex;
@@ -190,8 +208,8 @@ li {
 .cities-near-me {
   margin: 0 16px;
 }
-.cities-near-me-text{
-  font: 24px var(--UberMoveText-3) 
+.cities-near-me-text {
+  font: 24px var(--UberMoveText-3);
 }
 .cities-near-me-img-mobile {
   width: 92vw;
@@ -199,20 +217,60 @@ li {
 }
 .cities-near-me-img-desktop {
   display: none;
- 
 }
 .cities-table {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
-.city{
-  font: 16px var(--UberMoveText-2)
+.city {
+  font: 16px var(--UberMoveText-2);
 }
-.view-all-500-cities{
+.view-all-500-cities {
   font: 16px var(--UberMoveText-6);
   text-decoration: underline;
 }
-.dk{
+.dk {
   display: none;
+}
+.footer{
+  margin-top: 64px;
+  padding: 64px 16px 80px;
+}
+.footer-store-img
+{
+  width: 135px;
+}
+.ml{
+  margin-left: 20px;
+
+}
+.footer-logo{
+  margin-bottom: 48px;
+
+}
+.store-flex{
+  display: flex;
+}
+.c1{
+   margin-bottom: 64px;
+}
+.c2{
+  margin-bottom: 64px;
+}
+.c3{
+  margin-bottom: 64px;
+}
+.footer-text{
+  font: 16px var(--UberMoveText-5);
+  margin-bottom: 20px;
+}
+.footer-text-14{
+  font: 14px var(--UberMoveText-5);
+  margin-bottom: 20px;
+  
+}
+.social-icons{
+  display: flex;
+  margin-bottom: 40px;
 }

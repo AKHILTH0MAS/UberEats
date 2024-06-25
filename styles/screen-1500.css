@@ -15,7 +15,7 @@
     display: none;
   }
   .sectionBanner {
-    background: url(/asstes/images/desktop-Banner.webp);
+    background: url(/uberEats/asstes/images/desktop-Banner.webp);
     background-size: cover;
     background-position: center;
   }
@@ -34,8 +34,19 @@
   .sign-up-button {
     margin-right: 25px;
   }
+  .sign-up-button-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 9px 12px;
+    border-radius: 20px;
+    font: 14px var(--UberMoveText-1);
+  }
   .navbar {
-    padding: 10px 16px;
+    width: 100vw;
+    padding: 0;
   }
   .container-lg-child {
     display: flex;
@@ -85,7 +96,7 @@
     font: 16px var(--UberMoveText-4);
     text-decoration: underline;
   }
-  .cities-near-me-text{
+  .cities-near-me-text {
     font-size: 36px;
   }
   .cities-near-me-img-desktop {
@@ -97,7 +108,7 @@
   .cities-near-me-img-mobile {
     display: none;
   }
-  .dk{
+  .dk {
     display: block;
   }
   .cities-table {
@@ -105,12 +116,58 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 24px;
   }
-  .flx{
+  .flx {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
   }
-  .sm{
+  .sm {
     display: none;
   }
+  .footer {
+    margin: 80px 0 0 0;
+    padding: 70px 40px 88px;
+  }
+  .footer-logo {
+    margin: 0 0 80px 0;
+  }
+  .c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .social-icons {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  
+  .f2 {
+    flex: 2;
+  }
+  .c2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .c3 {
+    margin-left: 20px;
+    margin-bottom: 0;
+
+  }
+  .c4 {
+    display: flex;
+  }
+  .footer-text-14 {
+    margin-left: 10px;
+  }
+  .c5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .store-flex{
+    padding-bottom: 30px;
+  }
+ 
 }
