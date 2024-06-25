@@ -145,7 +145,7 @@
   }
   .footer {
    display: flex;
-   justify-self: auto;
+   justify-content: center;
   }
   .footer-logo {
     margin: 0 0 80px 0;
