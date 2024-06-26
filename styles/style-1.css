@@ -54,14 +54,15 @@ li {
     sans-serif;
 }
 .sectionBanner {
-  
   height: 100vh;
   background: url("/uberEats/asstes/images/banner-mobile.webp");
   background-size: cover;
   background-position: center;
 }
 .navbar {
-
+  /* background-color: red; */
+  /* position: absolute;
+  top: 0; */
   display: flex;
   align-items: center;
   padding: 8px 16px;
@@ -88,11 +89,12 @@ li {
   font: 14px var(--UberMoveText-1);
 }
 #navbar1 {
-  z-index: 1;
+  z-index: 2;
   display: none;
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background: #ffffff;
+
 }
 .delivery-address-nav {
   display: flex;
@@ -108,6 +110,7 @@ li {
   justify-content: center;
 }
 .container-child {
+  margin-top : 11%;
   padding: 0px 16px;
 }
 .banner-text {
@@ -147,7 +150,7 @@ li {
   padding: 15px;
   font: 18px var(--UberMoveText-6);
   border-radius: 8px;
-  margin: 0 20px 0 20px;
+  /* margin: 0 20px 0 20px; */
 }
 .orsignin {
   font: 15px var(--UberMoveText-6);
@@ -189,6 +192,7 @@ li {
 }
 .img-bussiness {
   width: 92vw;
+  margin: 0;
 }
 .bussiness-with-ubereats-flex {
   display: flex;
@@ -200,7 +204,7 @@ li {
 }
 .bussiness-header {
   font: 24px var(--UberMoveText-3);
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .bussiness-sub-header {
   font: 16px var(--UberMoveText-4);
