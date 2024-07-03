@@ -84,9 +84,13 @@ li {
 .sign-up-button {
   background-color: #000;
   color: #fff;
-  padding: 9px 12px;
+  height: 36px;
+  box-sizing: border-box;
+  padding:  12px;
   border-radius: 20px;
   font: 14px var(--UberMoveText-1);
+  display: inline-flex;
+  align-items: center;
 }
 #navbar1 {
   z-index: 2;
@@ -231,6 +235,7 @@ li {
 }
 .city {
   font: 16px var(--UberMoveText-2);
+  line-height: 24px;
 }
 .view-all-500-cities {
   font: 16px var(--UberMoveText-6);
@@ -238,6 +243,12 @@ li {
 }
 .dk {
   display: none;
+}
+.country-table{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px 8px;
+
 }
 .footer{
   margin-top: 64px;
