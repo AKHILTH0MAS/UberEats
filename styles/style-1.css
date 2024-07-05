@@ -55,7 +55,7 @@ li {
 }
 .sectionBanner {
   height: 100vh;
-  background: url("/uberEats/asstes/images/banner-mobile.webp");
+  background: url("../asstes/images/banner-mobile.webp");
   background-size: cover;
   background-position: center;
 }
