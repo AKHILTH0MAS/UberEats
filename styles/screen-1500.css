@@ -16,7 +16,7 @@
   }
   .sectionBanner {
     position: relative;
-    background: url(/uberEats/asstes/images/desktop-Banner.webp);
+    background: url(../asstes/images/desktop-Banner.webp);
     background-size: cover;
     background-position: center;
   }
