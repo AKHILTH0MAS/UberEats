@@ -1,4 +1,6 @@
 @media (min-width: 1020px) {
+
+
   /* short forms from og site  */
   .g4 {
     display: block;
@@ -15,6 +17,9 @@
     display: none;
   }
   .sectionBanner {
+    display: flex;
+    align-items: center;
+
     position: relative;
     background: url(../asstes/images/desktop-Banner.webp);
     background-size: cover;
@@ -32,14 +37,14 @@
     border-radius: 500px;
     font: 14px var(--UberMoveText-1);
     margin: 0 16px 0 0;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     white-space: nowrap;
     line-height: 16px;
     box-sizing: border-box;
   }
   .sign-up-button {
-    margin-right: 55px;
+    margin-right: 40px;
   }
   .sign-up-button-nav {
     display: flex;
@@ -54,48 +59,49 @@
     box-sizing: border-box;
     margin-left: 28px;
   }
- #navbar1 .sign-up-button{
-  margin-right: 40px;
- }
+  #navbar1 .sign-up-button {
+    margin-right: 40px;
+  }
   .navbar {
-    
-    width: 100vw;
+    width: 100%;
     height: 64px;
     padding: 0;
+    position: absolute;
+    top: 0;
+
   }
-  .navHeader{
+  .navHeader {
     padding: 0 0 0 40px;
-    margin-left:-6px;
+    margin-left: -6px;
     height: 16px;
     width: auto;
   }
-  /* nav header is pakka  dont fucking touch it  */
+  /* nav header is pakka  dont fu**** touch it  */
 
   .container-lg-child {
     display: flex;
   }
   .banner-text {
     font: 52px var(--UberMoveText-3);
+    line-height: 64px;
     margin: 0 0 40px 0;
   }
   .search-here {
     /* margin: 10px 10px; */
     margin: 0;
     padding: 18px 16px;
-    letter-spacing: 1px;
-    
   }
- 
+
   .container-lg {
     display: block;
-    position: absolute;
-    top: 39.68%;
-    margin: 0 0 0 40px;
+  
+    max-width: 1920px;
+    min-width: 1024px;
+    padding: 0 40px;
   }
   .delivery-address-box {
-      min-width: 500px;
-      max-width: 540px;
-      
+    min-width: 500px;
+    max-width: 540px;
   }
   .orsignin {
     margin-top: 24px;
@@ -117,33 +123,32 @@
     margin: 0;
     margin-right: 24px;
   }
-  .bussiness-header 
-  {
-    font: 28px var(--UberMoveText-3);                          
-    margin-bottom : 8px;
+  .bussiness-header {
+    font: 28px var(--UberMoveText-3);
+    margin-bottom: 8px;
   }
   .bussiness-sub-header {
-    font: 16px  var(--UberMoveText-6)  ;
+    font: 16px var(--UberMoveText-6);
     text-decoration: underline;
     line-height: 20px;
     letter-spacing: 0.49px;
   }
-.view-all-500-cities {
-  display: inline-flex;
-  align-items: end;
-  letter-spacing: 1px;
-}
-.vac{
-  align-items: center;
-}
-  .cities-near-me{
+  .view-all-500-cities {
+    display: inline-flex;
+    align-items: end;
+    letter-spacing: 1px;
+  }
+  .vac {
+    align-items: center;
+  }
+  .cities-near-me {
     margin: 0 40px;
   }
-  
+
   .cities-near-me-text {
     font-size: 36px;
   }
-  
+
   .cities-near-me-img-desktop {
     width: 100%;
     margin: 24px 0;
@@ -154,22 +159,22 @@
   .cities-near-me-img-mobile {
     display: none;
   }
-  
+
   .dk {
     display: block;
   }
   .cities-table {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-auto-flow: column;
   }
   .country-table {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    grid-template-rows: repeat(8,1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-auto-flow: column;
   }
   .flx {
@@ -182,11 +187,11 @@
     display: none;
   }
   .footer {
-   max-width: 1280px;
-   padding: 72px 40px 88px 40px;
-   min-width: 1024px;
-   margin: 80px auto 0 auto;
-   box-sizing: border-box;
+    max-width: 1280px;
+    padding: 72px 40px 88px 40px;
+    min-width: 1024px;
+    margin: 80px auto 0 auto;
+    box-sizing: border-box;
   }
   .footer-logo {
     margin: 0 0 80px 0;
@@ -201,9 +206,8 @@
   .social-icons {
     align-items: start;
     margin-bottom: 0;
-   
   }
-  .fl{
+  .fl {
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
@@ -211,10 +215,11 @@
   .f2 {
     flex: 2;
   }
-  .f1{
+  .f1 {
     flex: 1;
   }
-  .c2 {    margin-bottom: 0;
+  .c2 {
+    margin-bottom: 0;
   }
   .c3 {
     margin-bottom: 0;
@@ -231,61 +236,67 @@
     justify-content: flex-end;
   }
 
- .banner-bar{
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
- }
- .banner-bar-1{
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-  gap : 16px;
-  padding: 8px 16px;
-  width: 468px;
-  max-width: 500px;
- }
- .bar-1-text{
-  font-size: 16px;
-  font-family: var(--UberMoveText-1)
- }
- .location-icon{
-  padding: 6px 0;
- }
- .banner-bar-2{
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 8px 16px;
-  gap: 16px;
- }
- .clock-icon{
-  padding: 6px 0;
- }
- .banner-2-text{
-   font: 16px var(--UberMoveText-3);
+  .banner-bar {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .banner-bar-1 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 16px;
+    height: 56px;
+    padding: 8px 16px;
+    width: 500px;
+    max-width: 540px;
+  }
+  .bar-1-text {
+    font-size: 16px;
+    font-family: var(--UberMoveText-1);
+    color: #000;
+  }
 
- }
-.c4{
-  justify-content: flex-end;
-}
-.footer-text:last-child{
-  margin-bottom: 0px;
-}
-.hkhjfebs{
-  margin: 40px 0;
-  background-color: #f3f3f3;
-  height: 1px;
-  border: none;
-}
+  .banner-bar-2 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 15px;
+    gap: 12px;
+    height: 56px;
+  }
+  .clock-icon {
+    height: 24px;
+  }
+  .banner-2-text {
+    font: 16px var(--UberMoveText-1);
+  }
+  .c4 {
+    justify-content: flex-end;
+  }
+  .footer-text:last-child {
+    margin-bottom: 0px;
+  }
+  .arrow-down-icon {
+    height: 24px;
+    position: relative;
+    left: 3px;
+    margin-left: 2px;
+  }
+  .hkhjfebs {
+    margin: 40px 0;
+    background-color: #f3f3f3;
+    height: 1px;
+    border: none;
+  }
 
-.footer-text-14{
-  margin: 0 40px 0 0;
-}
-.last-element{
-  margin: 0 40px 0 0;
-}
-.footer-text-14:last-child{
-  margin: 0;
-}
+  .footer-text-14 {
+    margin: 0 40px 0 0;
+  }
+  .last-element {
+    margin: 0 40px 0 0;
+  }
+  .footer-text-14:last-child {
+    margin: 0;
+  }
 }
