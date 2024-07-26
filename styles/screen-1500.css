@@ -111,7 +111,7 @@
     display: flex;
     flex-direction: row;
     align-items: start;
-    margin: 80px 24px -13px 0;
+    margin: 80px 24px 0 0;
   }
   .img-bussiness {
     width: 100%;
@@ -274,7 +274,9 @@
     font-family: var(--UberMoveText-1);
     color: #000;
   }
-
+  .container-bussiness:last-child{
+    margin-bottom: 0;
+  }
   .banner-bar-2 {
     display: flex;
     align-items: center;
@@ -316,5 +318,13 @@
   }
   .footer-text-14:last-child {
     margin: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer-flex{
+    margin-bottom: 0;
+  }
+  .store-flex{
+    margin-bottom: 0;
   }
 }
