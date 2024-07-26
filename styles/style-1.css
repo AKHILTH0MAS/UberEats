@@ -270,6 +270,10 @@ p {
 .container-bussiness {
   margin: 0 0 36px 0;
 }
+.container-bussiness:last-child{
+  margin: 0 0 48px 0;
+
+}
 .bussiness-header {
   font: 24px var(--UberMoveText-3);
   line-height: 32px;
@@ -289,10 +293,13 @@ p {
 }
 .cities-near-me-text {
   font: 24px var(--UberMoveText-3);
+  line-height: 32px;
 }
 .cities-near-me-img-mobile {
-  width: 92vw;
-  margin: 16px 0;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  margin: 16px 0 11px;
 }
 .cities-near-me-img-desktop {
   display: none;
@@ -300,6 +307,8 @@ p {
 .cities-table {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-auto-flow: column;
   gap: 16px 8px;
 }
 .city {
