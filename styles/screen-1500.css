@@ -1,6 +1,4 @@
 @media (min-width: 1020px) {
-
-
   /* short forms from og site  */
   .g4 {
     display: block;
@@ -68,7 +66,6 @@
     padding: 0;
     position: absolute;
     top: 0;
-
   }
   .navHeader {
     padding: 0 0 0 40px;
@@ -94,7 +91,7 @@
 
   .container-lg {
     display: block;
-  
+
     max-width: 1920px;
     min-width: 1024px;
     padding: 0 40px;
